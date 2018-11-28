@@ -16,7 +16,7 @@
             android:contentDescription="@string/nav_header_desc"
             android:id="@+id/userImageNavHeader"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            android:layout_marginStart="12dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/loginButtonNavHeader"/>
 
     <TextView
@@ -43,10 +43,10 @@
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:id="@+id/loginButtonNavHeader" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="24dp"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
             android:background="@android:color/transparent" android:onClick="loginBtnNavClick"
-            android:textAlignment="viewStart" android:textColor="@android:color/background_light"/>
+            android:textAlignment="center" android:textColor="@android:color/background_light"
+            android:layout_marginStart="4dp"/>
     <ImageButton
             android:layout_width="30dp"
             android:layout_height="30dp" app:srcCompat="@drawable/addchannelbutton"
